@@ -1,0 +1,167 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap');
+
+#boxprincipal{
+
+    height: 79%;
+    width: 82%;
+    right: 10px;
+    top: 120px;
+    background: #81a3cf;
+    border-radius: 20px;
+
+    z-index: -1;
+
+    position: fixed;
+
+}
+
+#boxgrafico{
+
+    height: 359px;
+    width: 700px;
+    right: 49px;
+    top: 218px;
+    background: #ffffff;
+    border-radius: 20px;
+
+    position: fixed;
+
+    z-index: -1;
+}
+
+#ar-sala{
+
+    height: 57px;
+    width: 182px;
+    top: 126px;
+    right: 108px;
+    border-radius: 20px;
+  
+    position: absolute;
+  
+    z-index: 1;
+  
+  }
+  
+  #ar-sala h3{
+  
+    font-family:'Roboto', sans-serif;
+    font-size: 30px;
+    color: #00204b;
+    width: 225px;
+    left: 10px;
+    right: 10px;
+    bottom: 10px;
+  }
+
+  #categorias {
+
+    position: relative;
+
+    right: 10px;
+    bottom: -113px;
+    border-radius: 20px;
+
+    
+    width: 214px;
+    
+  }
+
+
+  #categorias li  {
+
+    
+    padding: 20px;
+    background: #81a3cf;
+    font-family: 'Roboto', sans-serif;
+    font-size: 20px;
+    border-radius: 20px;
+    margin-bottom: 10px;
+
+    
+    
+
+    }
+
+
+    #categorias a {
+
+      text-decoration: none;
+      color: inherit;
+      list-style: none;
+    }
+
+
+  
+
+  .sala-de-estar{
+
+    position: relative;
+    height: 33px;
+    width: 112px;
+    bottom: -62px;
+    right: -235px;
+    background: #81a3cf;
+    border-radius: 10px;
+    text-align: center;
+
+
+  }
+
+  .salão-de-vendas{
+
+    position: relative;
+    height: 33px;
+    width: 112px;
+    bottom: 46px;
+    right: -486px;
+    background: #81a3cf;
+    border-radius: 10px;
+    text-align: center;
+
+
+  }
+
+  .nobreak{
+
+    position: relative;
+    height: 33px;
+    width: 112px;
+    bottom: 101px;
+    right: -615px;
+    background: #81a3cf;
+    border-radius: 10px;
+    text-align: center;
+
+
+
+  }
+
+ .sala-de-reuniões{
+
+
+  position: relative;
+  height: 33px;
+  width: 112px;
+  bottom: -7px;
+  right: -362px;
+  background: #81a3cf;
+  border-radius: 10px;
+  text-align: center;
+
+ }
+
+ #grafico{
+
+  z-index: 10;
+ }
+
+ #grafcozinho{
+
+  height: 500px;
+  width: 500px;
+  bottom: 10px;
+  right: 10px;
+ }
+
+

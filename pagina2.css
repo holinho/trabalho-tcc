@@ -1,0 +1,658 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap');
+
+#todos-os-lugares{
+
+  bottom: 40%;
+  left: 30%;
+
+  position: relative;
+}
+
+#lugares1 a {
+  background: #4e8ad8;
+  height: 57px;
+  width: 617px;
+  top: 214px;
+  right: 698px;
+  border-radius: 20px;
+
+  text-align: center;
+
+  position: absolute;
+
+  z-index: 1;
+
+  text-decoration: none; 
+}
+
+#lugares1 h3 {
+  font-family:'Roboto', sans-serif;
+  font-size: 13px;
+  color: #00204b;
+}
+
+#lugares2 a {
+  background: #4e8ad8;
+  height: 57px;
+  width: 617px;
+  top: 290px;
+  right: 698px;
+  border-radius: 20px;
+
+  text-align: center;
+
+
+  position: absolute;
+
+  z-index: 1;
+
+  text-decoration: none; 
+}
+
+#lugares2 h3 {
+  font-family: 'Roboto', sans-serif;
+  font-size: 13px;
+  color: #00204b;
+}
+
+#lugares3 a {
+  background: #4e8ad8;
+  height: 57px;
+  width: 617px;
+  top: 366px;
+  right: 698px;
+  border-radius: 20px;
+  
+  text-align: center;
+
+  position: absolute;
+
+  z-index: 1;
+
+  text-decoration: none; 
+}
+
+#lugares3 h3 {
+  font-family: 'Roboto', sans-serif;
+  font-size: 13px;
+  color: #00204b;
+}
+
+#lugares4 a {
+  background: #4e8ad8;
+  height: 57px;
+  width: 617px;
+  top: 442px;
+  right: 698px;
+  border-radius: 20px;
+
+  text-align: center;
+
+  position: absolute;
+
+  z-index: 1;
+
+  text-decoration: none; 
+}
+
+#lugares4 h3 {
+  font-family: 'Roboto', sans-serif;
+  font-size: 13px;
+  color: #00204b;
+}
+
+#lugares5 a {
+  background: #4e8ad8;
+  height: 57px;
+  width: 617px;
+  top: 518px;
+  right: 698px;
+  border-radius: 20px;
+
+  text-align: center;
+
+  position: absolute;
+
+  z-index: 1;
+
+  text-decoration: none; 
+}
+
+#lugares5 h3 {
+  font-family: 'Roboto', sans-serif;
+  font-size: 13px;
+  color: #00204b;
+}
+
+
+#fachada {
+
+    background: #81A3CF;
+    position: absolute;
+    bottom: 10px;
+    left: 10px;
+    height: 76%;
+    width: 98%;
+    border-radius:  25px;
+
+    overflow: auto;
+
+}
+
+
+#categorias{
+
+    background: #ffffff;
+    position: absolute;
+    left: 8px;
+    top: 202px;
+    font-size: 25px;
+    font-family: 'Roboto', sans-serif;
+    color: #00204b;
+    
+  
+    
+}
+
+#categorias ul{
+
+    list-style-type: none;
+}
+
+#categorias a{
+
+    text-decoration: none;
+    color: inherit;
+    line-height: 35px;
+    background:#fdfdfd;
+    position: relative;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 3px;
+    padding-bottom: 3px;
+    border-radius: 10px;
+   
+}
+
+#categorias a:hover{
+
+    background: #6692cc;
+}
+
+#categorias a:hover ::before{
+
+    transform: 3s;
+    cursor: pointer;
+}
+
+#textosdufrio{
+
+    background: transparent;
+    position: absolute;
+    left: 20px;
+    bottom: 487px;
+    font-size: 13px;
+    
+}
+
+#textosdufrio ul{
+
+    list-style-type: none;
+    font-family: 'Roboto', sans-serif;
+    color: #00204b;
+}
+
+#Nome h1{
+
+    background: transparent;
+    position: absolute;
+    left: 56px;
+    bottom: 490px;
+    font-size: 60px;
+    font-family: 'Roboto', sans-serif;
+    color: #00204b;
+}
+
+
+
+
+
+
+
+/*tamanho menor abaixo*/
+
+
+
+
+
+
+
+@media (max-width:375px) {
+
+        #fachada{
+            position:absolute;
+            bottom: -97px;
+            right: -1px;
+            height: 513px;
+            width: 378px;
+            border-left: 0px;
+        }
+
+        #categorias{
+
+            display: none;
+        }
+
+        #logodaempresa{
+
+            display: none;
+        }
+
+        #Nome h1{
+
+          background: transparent;
+          position: absolute;
+          left: 11px;
+          bottom: 534px;
+          font-size: 40px;
+          font-family: 'Roboto', sans-serif;
+          color: #00204b;
+
+        }
+
+        #textosdufrio{
+
+          background: transparent;
+          position: absolute;
+          left: -28px;
+          bottom: 522px;
+          font-size: 10px;
+          
+      }
+      
+}
+
+ body
+ {
+   margin: 0;
+   padding: 0;
+   
+   background: #ffffff;
+   color: #cdcdcd;
+   font-family: "Avenir Next", "Avenir", sans-serif;
+ }
+ 
+ #menuToggle
+ {
+   display: block;
+   position: relative;
+   top: 50px;
+   left: 50px;
+   
+   z-index: 1;
+   
+   -webkit-user-select: none;
+   user-select: none;
+ }
+ 
+ #menuToggle a
+ {
+   text-decoration: none;
+   color: #000000;
+   
+   transition: color 0.3s ease;
+ }
+ 
+ #menuToggle a:hover
+ {
+   color: tomato;
+ }
+ 
+ 
+ #menuToggle input
+ {
+   display: block;
+   width: 40px;
+   height: 32px;
+   position: absolute;
+   top: -34px;
+   left: -44px;
+   
+   cursor: pointer;
+   
+   opacity: 0; /* hide this */
+   z-index: 2; /* and place it over the hamburger */
+   
+   -webkit-touch-callout: none;
+ }
+ 
+ /*
+  * Just a quick hamburger
+  */
+ #menuToggle span
+ {
+   display: block;
+   width: 33px;
+   height: 4px;
+   margin-bottom: 5px;
+   position: relative;
+   
+   background: #000000;
+   border-radius: 3px;
+   
+   left: -38px;
+   top: -26px;
+   z-index: 1;
+   
+   transform-origin: 4px 0px;
+   
+   transition: transform 0.5s cubic-bezier(0.77,0.2,0.05,1.0),
+               background 0.5s cubic-bezier(0.77,0.2,0.05,1.0),
+               opacity 0.55s ease;
+ }
+ 
+ #menuToggle span:first-child
+ {
+   transform-origin: 0% 0%;
+ }
+ 
+ #menuToggle span:nth-last-child(2)
+ {
+   transform-origin: 0% 100%;
+ }
+ 
+ /* 
+  * Transform all the slices of hamburger
+  * into a crossmark.
+  */
+ #menuToggle input:checked ~ span
+ {
+   opacity: 1;
+   transform: rotate(45deg) translate(-2px, -1px);
+   background: #000000;
+ }
+ 
+ /*
+  * But let's hide the middle one.
+  */
+ #menuToggle input:checked ~ span:nth-last-child(3)
+ {
+   opacity: 0;
+   transform: rotate(0deg) scale(0.2, 0.2);
+ }
+ 
+ /*
+  * Ohyeah and the last one should go the other direction
+  */
+ #menuToggle input:checked ~ span:nth-last-child(2)
+ {
+   transform: rotate(-45deg) translate(0, -1px);
+ }
+ 
+ /*
+  * Make this absolute positioned
+  * at the top left of the screen
+  */
+ #menu
+ {
+   position: absolute;
+   width: 300px;
+   margin: -100px 0 0 -50px;
+   padding: 50px;
+   padding-top: 125px;
+   border-radius: 15px;
+   
+   background: #ededed;
+   list-style-type: none;
+   -webkit-font-smoothing: antialiased;
+   /* to stop flickering of text in safari */
+   
+   transform-origin: 0% 0%;
+   transform: translate(-100%, 0);
+   
+   transition: transform 0.5s cubic-bezier(0.77,0.2,0.05,1.0);
+ }
+ 
+ #menu li
+ {
+   padding: 10px 0;
+   font-size: 22px;
+   font-family: 'Roboto', sans-serif;
+   color: #00204b;
+ }
+ 
+ #menuToggle input:checked ~ ul
+ {
+   transform: none;
+ }
+
+
+  /*@media (min-width:2560px){
+
+    #lugares1 a {
+      background: #4e8ad8;
+      height: 57px;
+      width: 617px;
+      top: 214px;
+      right: 698px;
+      border-radius: 20px;
+    
+      text-align: center;
+    
+      position: absolute;
+    
+      z-index: 1;
+    
+      text-decoration: none; 
+    }
+    
+    #lugares1 h3 {
+      font-family:'Roboto', sans-serif;
+      font-size: 13px;
+      color: #00204b;
+    }
+    
+    #lugares2 a {
+      background: #4e8ad8;
+      height: 57px;
+      width: 617px;
+      top: 290px;
+      right: 698px;
+      border-radius: 20px;
+    
+      text-align: center;
+    
+    
+      position: absolute;
+    
+      z-index: 1;
+    
+      text-decoration: none; 
+    }
+    
+    #lugares2 h3 {
+      font-family: 'Roboto', sans-serif;
+      font-size: 13px;
+      color: #00204b;
+    }
+    
+    #lugares3 a {
+      background: #4e8ad8;
+      height: 57px;
+      width: 617px;
+      top: 366px;
+      right: 698px;
+      border-radius: 20px;
+      
+      text-align: center;
+    
+      position: absolute;
+    
+      z-index: 1;
+    
+      text-decoration: none; 
+    }
+    
+    #lugares3 h3 {
+      font-family: 'Roboto', sans-serif;
+      font-size: 13px;
+      color: #00204b;
+    }
+    
+    #lugares4 a {
+      background: #4e8ad8;
+      height: 57px;
+      width: 617px;
+      top: 442px;
+      right: 698px;
+      border-radius: 20px;
+    
+      text-align: center;
+    
+      position: absolute;
+    
+      z-index: 1;
+    
+      text-decoration: none; 
+    }
+    
+    #lugares4 h3 {
+      font-family: 'Roboto', sans-serif;
+      font-size: 13px;
+      color: #00204b;
+    }
+    
+    #lugares5 a {
+      background: #4e8ad8;
+      height: 57px;
+      width: 617px;
+      top: 518px;
+      right: 698px;
+      border-radius: 20px;
+    
+      text-align: center;
+    
+      position: absolute;
+    
+      z-index: 1;
+    
+      text-decoration: none; 
+    }
+    
+    #lugares5 h3 {
+      font-family: 'Roboto', sans-serif;
+      font-size: 13px;
+      color: #00204b;
+    }
+    
+    
+    #fachada {
+    
+        background: #81A3CF;
+        position: absolute;
+        bottom: 61px;
+        right: 1215px;
+        height: 545px;
+        width: 1337px;
+        border-radius:  25px;
+    
+        overflow: auto;
+    
+    }
+
+    #Nome h1{
+
+      background: transparent;
+      position: absolute;
+      left: 11px;
+      bottom: 609px;
+      font-size: 60px;
+      font-family: 'Roboto', sans-serif;
+      color: #00204b;
+  }
+
+  #textosdufrio{
+
+    background: transparent;
+    position: absolute;
+    left: -26px;
+    bottom: 609px;
+    font-size: 13px;
+
+  }
+
+  #todos-os-lugares{
+
+    position: relative;
+
+    left: -1219px;
+    bottom: 10px;
+  }
+
+  }
+  
+
+  /*@media (min-width:1440px){
+
+
+    #fachada {
+    
+      background: #81A3CF;
+      position: absolute;
+      bottom: 61px;
+      right: 96px;
+      height: 545px;
+      width: 1337px;
+      border-radius:  25px;
+  
+      overflow: auto;
+  
+  }
+
+  #Nome h1{
+
+    background: transparent;
+    position: absolute;
+    left: 11px;
+    bottom: 609px;
+    font-size: 60px;
+    font-family: 'Roboto', sans-serif;
+    color: #00204b;
+}
+
+#textosdufrio{
+
+  background: transparent;
+  position: absolute;
+  left: -26px;
+  bottom: 609px;
+  font-size: 13px;
+
+}
+
+#todos-os-lugares{
+
+  position: relative;
+
+  left: -98px;
+  bottom: 10px;
+}
+
+
+  }
+
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+

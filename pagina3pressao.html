@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="E:\Adobe\visual code studio\Microsoft VS Code\trabalhotcc+foda\pagina3.css">
+
+    <title>InConfort</title>
+
+</head>
+
+<body>
+
+    <div id="ar-sala">
+
+        <h3>Sala de reuniões </h3>
+
+    </div>
+
+    <div id="categorias">
+
+        <ul>
+            <li><a href="E:\Adobe\visual code studio\Microsoft VS Code\trabalhotcc+foda\pagina3monitoramento.html">Monitoramento</a></li>
+            <li><a href="E:\Adobe\visual code studio\Microsoft VS Code\trabalhotcc+foda\TRABALHOenergetico.html">Energia</a></li>
+            <li><a href="E:\Adobe\visual code studio\Microsoft VS Code\trabalhotcc+foda\pagina3pressao.html">Pressão e temp.</a></li>
+        </ul>
+    </div>
+
+
+  <div id="boxprincipal">
+
+    <div id="boxgrafico">
+
+    
+        <canvas id="graficozinho" width="1464" height="732" style="display: block; box-sizing: border-box; height: 366px; width: 732px; bottom: 10px; right: 10px;"></canvas>
+      </div>
+      
+      <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+      
+      <script>
+        const ctx = document.getElementById('graficozinho');
+      
+        new Chart(ctx, {
+          type: 'line',
+          data: {
+            labels: ['8:30','9:00', '9:30', '10:00','10:30', '11:00','11:30', '12:00','12:30', '13:00' , '13:30','14:00','14:30','15:00' ,'15:30','16:00' ,'16:30', '17:00','17:30','18:00' ,'18:30'],
+            datasets: [{
+              label: 'Analise da pressão de trabalho',
+              data:[150, 150, 150, 150, 100, 150,147,149,145,155,150,160,150,150,150,150,150,150,150,150,150],
+              borderWidth: 1
+            }]
+          },
+          options: {
+            scales: {
+              y: {
+                beginAtZero: true
+              }
+            }
+          }
+        });
+      </script>
+</div>
+
+</div>
+    
+</body>
+</html>
